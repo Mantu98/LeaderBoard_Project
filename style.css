@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1c1c1c;;
+}
+
+.maincontainer {
+    /* border: 2px solid green; */
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#scoreBoaredContainer {
+    width: 100%;
+}
+
+.scoreBoard {
+    /* border: 2px solid red; */
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.scoreBoard p {
+    /* border: 2px solid green; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+h1{
+    color: white;
+}
+ 
+#addDetails {
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(138, 1, 1);
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form input {
+    width: 20%;
+    padding: 0.2rem 0;
+    background-color: #302f2f;
+    color: aliceblue;
+    box-shadow: 3px 3px 7px black 4px 4px 10px black;
+}
